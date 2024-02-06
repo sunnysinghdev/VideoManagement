@@ -1,3 +1,7 @@
+# outout and debug
+bin
+obj
+
 # Prerequisites
 *.d
 
