@@ -1,0 +1,175 @@
+2024-02-22 09:23:51.147 +05:30 [INF] Now listening on: http://localhost:5071
+2024-02-22 09:23:51.189 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-22 09:23:51.192 +05:30 [INF] Hosting environment: Development
+2024-02-22 09:23:51.195 +05:30 [INF] Content root path: C:\Users\H552416\source\VMS\WebAPI
+2024-02-22 09:23:53.381 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger/index.html - null null
+2024-02-22 09:23:53.832 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger/index.html - 200 null text/html;charset=utf-8 456.9657ms
+2024-02-22 09:23:53.871 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-22 09:23:53.871 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/_vs/browserLink - null null
+2024-02-22 09:23:53.919 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 48.003ms
+2024-02-22 09:23:53.996 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 125.5548ms
+2024-02-22 09:23:54.119 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger/v1/swagger.json - null null
+2024-02-22 09:23:54.348 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 229.168ms
+2024-02-22 09:25:38.488 +05:30 [INF] Now listening on: http://localhost:5071
+2024-02-22 09:25:38.595 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-22 09:25:38.604 +05:30 [INF] Hosting environment: Development
+2024-02-22 09:25:38.609 +05:30 [INF] Content root path: C:\Users\H552416\source\VMS\WebAPI
+2024-02-22 09:25:39.086 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger/index.html - null null
+2024-02-22 09:25:39.539 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger/index.html - 200 null text/html;charset=utf-8 459.4325ms
+2024-02-22 09:25:39.572 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-22 09:25:39.573 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/_vs/browserLink - null null
+2024-02-22 09:25:39.582 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 10.6996ms
+2024-02-22 09:25:39.668 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 95.2724ms
+2024-02-22 09:25:39.721 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger/v1/swagger.json - null null
+2024-02-22 09:25:39.891 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 170.1053ms
+2024-02-22 09:26:24.855 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5071/api/v1/videos?FileName=1.mp4&Title=hello&Description=de - multipart/form-data; boundary=----WebKitFormBoundaryUcCUWQW2VMzsFHOZ 32768
+2024-02-22 09:26:24.887 +05:30 [INF] Executing endpoint 'WebAPI.Controllers.VideosController.Post (WebAPI)'
+2024-02-22 09:26:24.927 +05:30 [INF] Route matched with {action = "Post", controller = "Videos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Domain.Models.CreateVideo) on controller WebAPI.Controllers.VideosController (WebAPI).
+2024-02-22 09:27:04.378 +05:30 [INF] Saved 1 entities to in-memory store.
+2024-02-22 09:27:14.863 +05:30 [INF] Saved 1 entities to in-memory store.
+2024-02-22 09:27:25.001 +05:30 [INF] Video created successfully.
+2024-02-22 09:27:25.010 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-02-22 09:27:25.016 +05:30 [INF] Executed action WebAPI.Controllers.VideosController.Post (WebAPI) in 60079.5995ms
+2024-02-22 09:27:25.020 +05:30 [INF] Executed endpoint 'WebAPI.Controllers.VideosController.Post (WebAPI)'
+2024-02-22 09:27:25.028 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5071/api/v1/videos?FileName=1.mp4&Title=hello&Description=de - 204 null null 60170.8025ms
+2024-02-22 09:27:37.596 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/api/v1/videos - null null
+2024-02-22 09:27:37.611 +05:30 [INF] Executing endpoint 'WebAPI.Controllers.VideosController.Get (WebAPI)'
+2024-02-22 09:27:37.619 +05:30 [INF] Route matched with {action = "Get", controller = "Videos"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Domain.Models.Video] Get() on controller WebAPI.Controllers.VideosController (WebAPI).
+2024-02-22 09:27:37.771 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Models.Video, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-22 09:27:37.787 +05:30 [INF] Executed action WebAPI.Controllers.VideosController.Get (WebAPI) in 161.3832ms
+2024-02-22 09:27:37.794 +05:30 [INF] Executed endpoint 'WebAPI.Controllers.VideosController.Get (WebAPI)'
+2024-02-22 09:27:37.798 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/api/v1/videos - 200 null application/json; charset=utf-8 202.2675ms
+2024-02-22 10:01:06.941 +05:30 [INF] Now listening on: http://localhost:5071
+2024-02-22 10:01:07.076 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-22 10:01:07.095 +05:30 [INF] Hosting environment: Development
+2024-02-22 10:01:07.099 +05:30 [INF] Content root path: C:\Users\H552416\source\VMS\WebAPI
+2024-02-22 10:01:07.516 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger/index.html - null null
+2024-02-22 10:01:08.047 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger/index.html - 200 null text/html;charset=utf-8 536.4023ms
+2024-02-22 10:01:08.085 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/_vs/browserLink - null null
+2024-02-22 10:01:08.086 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-22 10:01:08.109 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 23.7461ms
+2024-02-22 10:01:08.186 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 100.413ms
+2024-02-22 10:01:08.297 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger/v1/swagger.json - null null
+2024-02-22 10:01:08.549 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 251.3838ms
+2024-02-22 10:01:40.016 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5071/api/v1/videos?title=1&description=2 - multipart/form-data; boundary=----WebKitFormBoundaryaDgW8wn7da66AHcw 135
+2024-02-22 10:01:40.118 +05:30 [INF] Executing endpoint 'WebAPI.Controllers.VideosController.Post (WebAPI)'
+2024-02-22 10:01:40.182 +05:30 [INF] Route matched with {action = "Post", controller = "Videos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Microsoft.AspNetCore.Http.IFormFile, System.String, System.String) on controller WebAPI.Controllers.VideosController (WebAPI).
+2024-02-22 10:01:40.503 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-02-22 10:01:40.554 +05:30 [INF] Executed action WebAPI.Controllers.VideosController.Post (WebAPI) in 354.5133ms
+2024-02-22 10:01:40.560 +05:30 [INF] Executed endpoint 'WebAPI.Controllers.VideosController.Post (WebAPI)'
+2024-02-22 10:01:40.564 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5071/api/v1/videos?title=1&description=2 - 400 null application/problem+json; charset=utf-8 547.9196ms
+2024-02-22 10:01:57.484 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5071/api/v1/videos?title=1&description=2 - multipart/form-data; boundary=----WebKitFormBoundaryuBvMMGJI26MuFpum 32768
+2024-02-22 10:01:57.509 +05:30 [INF] Executing endpoint 'WebAPI.Controllers.VideosController.Post (WebAPI)'
+2024-02-22 10:01:57.513 +05:30 [INF] Route matched with {action = "Post", controller = "Videos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Microsoft.AspNetCore.Http.IFormFile, System.String, System.String) on controller WebAPI.Controllers.VideosController (WebAPI).
+2024-02-22 10:01:58.356 +05:30 [INF] Saved 1 entities to in-memory store.
+2024-02-22 10:01:58.441 +05:30 [INF] Saved 1 entities to in-memory store.
+2024-02-22 10:01:58.446 +05:30 [INF] Video created successfully.
+2024-02-22 10:01:58.451 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-02-22 10:01:58.455 +05:30 [INF] Executed action WebAPI.Controllers.VideosController.Post (WebAPI) in 936.2466ms
+2024-02-22 10:01:58.459 +05:30 [INF] Executed endpoint 'WebAPI.Controllers.VideosController.Post (WebAPI)'
+2024-02-22 10:01:58.469 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5071/api/v1/videos?title=1&description=2 - 204 null null 983.578ms
+2024-02-22 10:08:10.366 +05:30 [INF] Now listening on: http://localhost:5071
+2024-02-22 10:08:10.411 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-22 10:08:10.414 +05:30 [INF] Hosting environment: Development
+2024-02-22 10:08:10.417 +05:30 [INF] Content root path: C:\Users\H552416\source\VMS\WebAPI
+2024-02-22 10:08:13.695 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger/index.html - null null
+2024-02-22 10:08:14.330 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger/index.html - 200 null text/html;charset=utf-8 637.0907ms
+2024-02-22 10:08:14.399 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/_vs/browserLink - null null
+2024-02-22 10:08:14.399 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-22 10:08:14.423 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 24.1584ms
+2024-02-22 10:08:14.528 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 129.2209ms
+2024-02-22 10:08:14.655 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger/v1/swagger.json - null null
+2024-02-22 10:08:14.857 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 201.8971ms
+2024-02-22 10:09:49.353 +05:30 [INF] Now listening on: http://localhost:5071
+2024-02-22 10:09:49.461 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-22 10:09:49.465 +05:30 [INF] Hosting environment: Development
+2024-02-22 10:09:49.468 +05:30 [INF] Content root path: C:\Users\H552416\source\VMS\WebAPI
+2024-02-22 10:16:06.801 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5071/api/v1videos?title=xyz&description=desc - multipart/form-data; boundary=---------------------8dc338f480add82 7495002
+2024-02-22 10:16:06.855 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5071/api/v1videos?title=xyz&description=desc - 404 0 null 55.9871ms
+2024-02-22 10:16:06.885 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5071/api/v1videos, Response status code: 404
+2024-02-22 10:16:06.910 +05:30 [INF] Connection id "0HN1JC4NAM49U", Request id "0HN1JC4NAM49U:00000001": the application completed without reading the entire request body.
+2024-02-22 10:17:22.553 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5071/api/v1/videos?title=xyz&description=desc - multipart/form-data; boundary=---------------------8dc338f7561829d 7495002
+2024-02-22 10:17:22.584 +05:30 [INF] Executing endpoint 'WebAPI.Controllers.VideosController.Post (WebAPI)'
+2024-02-22 10:17:22.616 +05:30 [INF] Route matched with {action = "Post", controller = "Videos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Microsoft.AspNetCore.Http.IFormFile, System.String, System.String) on controller WebAPI.Controllers.VideosController (WebAPI).
+2024-02-22 10:17:23.728 +05:30 [INF] Saved 1 entities to in-memory store.
+2024-02-22 10:17:23.794 +05:30 [INF] Saved 1 entities to in-memory store.
+2024-02-22 10:17:23.798 +05:30 [INF] Video created successfully.
+2024-02-22 10:17:23.803 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-02-22 10:17:23.819 +05:30 [INF] Executed action WebAPI.Controllers.VideosController.Post (WebAPI) in 1186.4364ms
+2024-02-22 10:17:23.826 +05:30 [INF] Executed endpoint 'WebAPI.Controllers.VideosController.Post (WebAPI)'
+2024-02-22 10:17:23.836 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5071/api/v1/videos?title=xyz&description=desc - 204 null null 1282.5742ms
+2024-02-22 10:21:23.872 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger - null null
+2024-02-22 10:21:23.913 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger - 301 0 null 42.5114ms
+2024-02-22 10:21:23.936 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger/index.html - null null
+2024-02-22 10:21:24.063 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger/index.html - 200 null text/html;charset=utf-8 127.0158ms
+2024-02-22 10:21:24.099 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger/swagger-ui.css - null null
+2024-02-22 10:21:24.102 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger/swagger-ui-bundle.js - null null
+2024-02-22 10:21:24.103 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger/swagger-ui-standalone-preset.js - null null
+2024-02-22 10:21:24.136 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-02-22 10:21:24.136 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-02-22 10:21:24.136 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-02-22 10:21:24.139 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger/swagger-ui.css - 200 143943 text/css 39.7123ms
+2024-02-22 10:21:24.141 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 38.4879ms
+2024-02-22 10:21:24.145 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 42.2231ms
+2024-02-22 10:21:24.481 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger/v1/swagger.json - null null
+2024-02-22 10:21:24.489 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/swagger/favicon-32x32.png - null null
+2024-02-22 10:21:24.522 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-02-22 10:21:24.530 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger/favicon-32x32.png - 200 628 image/png 40.5624ms
+2024-02-22 10:21:24.644 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 163.035ms
+2024-02-22 10:21:35.458 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/api/v1/videos - null null
+2024-02-22 10:21:35.464 +05:30 [INF] Executing endpoint 'WebAPI.Controllers.VideosController.Get (WebAPI)'
+2024-02-22 10:21:35.469 +05:30 [INF] Route matched with {action = "Get", controller = "Videos"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Domain.Models.Video] Get() on controller WebAPI.Controllers.VideosController (WebAPI).
+2024-02-22 10:21:35.591 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Models.Video, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-22 10:21:35.604 +05:30 [INF] Executed action WebAPI.Controllers.VideosController.Get (WebAPI) in 131.6272ms
+2024-02-22 10:21:35.607 +05:30 [INF] Executed endpoint 'WebAPI.Controllers.VideosController.Get (WebAPI)'
+2024-02-22 10:21:35.608 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/api/v1/videos - 200 null application/json; charset=utf-8 150.0084ms
+2024-02-22 10:21:58.111 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/api/v1/videos/download/1 - null null
+2024-02-22 10:21:58.120 +05:30 [INF] Executing endpoint 'WebAPI.Controllers.VideosController.Download (WebAPI)'
+2024-02-22 10:21:58.126 +05:30 [INF] Route matched with {action = "Download", controller = "Videos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Download(Int32) on controller WebAPI.Controllers.VideosController (WebAPI).
+2024-02-22 10:21:58.211 +05:30 [INF] Executing FileContentResult, sending file with download name '1.mp4' ...
+2024-02-22 10:21:58.243 +05:30 [INF] Executed action WebAPI.Controllers.VideosController.Download (WebAPI) in 113.1281ms
+2024-02-22 10:21:58.246 +05:30 [INF] Executed endpoint 'WebAPI.Controllers.VideosController.Download (WebAPI)'
+2024-02-22 10:21:58.250 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/api/v1/videos/download/1 - 200 7494813 application/octet-stream 138.75ms
+2024-02-22 10:22:50.824 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/api/v1/videos/download/1 - null null
+2024-02-22 10:22:50.842 +05:30 [INF] Executing endpoint 'WebAPI.Controllers.VideosController.Download (WebAPI)'
+2024-02-22 10:22:50.843 +05:30 [INF] Route matched with {action = "Download", controller = "Videos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Download(Int32) on controller WebAPI.Controllers.VideosController (WebAPI).
+2024-02-22 10:22:50.869 +05:30 [INF] Executing FileContentResult, sending file with download name '1.mp4' ...
+2024-02-22 10:22:50.892 +05:30 [INF] Executed action WebAPI.Controllers.VideosController.Download (WebAPI) in 45.3379ms
+2024-02-22 10:22:50.897 +05:30 [INF] Executed endpoint 'WebAPI.Controllers.VideosController.Download (WebAPI)'
+2024-02-22 10:22:50.900 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/api/v1/videos/download/1 - 200 7494813 application/octet-stream 75.2272ms
+2024-02-22 10:29:04.446 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/api/v1/videos/download/1 - null null
+2024-02-22 10:29:04.456 +05:30 [INF] Executing endpoint 'WebAPI.Controllers.VideosController.Download (WebAPI)'
+2024-02-22 10:29:04.458 +05:30 [INF] Route matched with {action = "Download", controller = "Videos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Download(Int32) on controller WebAPI.Controllers.VideosController (WebAPI).
+2024-02-22 10:29:04.469 +05:30 [INF] Executing FileContentResult, sending file with download name '1.mp4' ...
+2024-02-22 10:29:04.658 +05:30 [INF] Executed action WebAPI.Controllers.VideosController.Download (WebAPI) in 195.4946ms
+2024-02-22 10:29:04.663 +05:30 [INF] Executed endpoint 'WebAPI.Controllers.VideosController.Download (WebAPI)'
+2024-02-22 10:29:04.670 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/api/v1/videos/download/1 - 200 7494813 application/octet-stream 221.9858ms
+2024-02-22 10:31:12.083 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/api/v1/videos/download/1 - null null
+2024-02-22 10:31:12.092 +05:30 [INF] Executing endpoint 'WebAPI.Controllers.VideosController.Download (WebAPI)'
+2024-02-22 10:31:12.097 +05:30 [INF] Route matched with {action = "Download", controller = "Videos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Download(Int32) on controller WebAPI.Controllers.VideosController (WebAPI).
+2024-02-22 10:31:12.134 +05:30 [INF] Executing FileContentResult, sending file with download name '1.mp4' ...
+2024-02-22 10:31:12.183 +05:30 [INF] Executed action WebAPI.Controllers.VideosController.Download (WebAPI) in 80.1058ms
+2024-02-22 10:31:12.186 +05:30 [INF] Executed endpoint 'WebAPI.Controllers.VideosController.Download (WebAPI)'
+2024-02-22 10:31:12.189 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/api/v1/videos/download/1 - 200 7494813 application/octet-stream 106.668ms
+2024-02-22 10:39:05.433 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/api/videos/download/3.mp4 - null null
+2024-02-22 10:39:05.542 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/api/videos/download/3.mp4 - 404 0 null 109.3513ms
+2024-02-22 10:39:05.594 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5071/api/videos/download/3.mp4, Response status code: 404
+2024-02-22 10:39:05.598 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/api/videos/download/3.mp4 - null null
+2024-02-22 10:39:05.628 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/api/videos/download/3.mp4 - 404 0 null 29.1896ms
+2024-02-22 10:39:05.650 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/api/videos/download/3.mp4 - null null
+2024-02-22 10:39:05.658 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5071/api/videos/download/3.mp4, Response status code: 404
+2024-02-22 10:39:05.662 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/api/videos/download/3.mp4 - 404 0 null 12.008ms
+2024-02-22 10:39:05.696 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5071/api/videos/download/3.mp4, Response status code: 404
+2024-02-22 10:39:05.750 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/api/videos/download/3.mp4 - null null
+2024-02-22 10:39:05.754 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/api/videos/download/3.mp4 - 404 0 null 3.3936ms
+2024-02-22 10:39:05.810 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5071/api/videos/download/3.mp4, Response status code: 404
+2024-02-22 10:39:05.814 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/api/videos/download/3.mp4 - null null
+2024-02-22 10:39:05.819 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/api/videos/download/3.mp4 - 404 0 null 4.8878ms
+2024-02-22 10:39:05.822 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/api/videos/download/3.mp4 - null null
+2024-02-22 10:39:05.837 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5071/api/videos/download/3.mp4, Response status code: 404
+2024-02-22 10:39:05.841 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/api/videos/download/3.mp4 - 404 0 null 18.7938ms
+2024-02-22 10:39:05.850 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5071/api/videos/download/3.mp4, Response status code: 404
+2024-02-22 10:39:05.933 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5071/api/videos/download/3.mp4 - null null
+2024-02-22 10:39:05.945 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5071/api/videos/download/3.mp4 - 404 0 null 12.0343ms
+2024-02-22 10:39:06.004 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5071/api/videos/download/3.mp4, Response status code: 404
+2024-02-22 10:43:03.676 +05:30 [INF] Application is shutting down...

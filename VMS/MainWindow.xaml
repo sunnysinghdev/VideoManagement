@@ -1,0 +1,70 @@
+﻿<Window x:Class="VMS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VMS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="500">
+    <DockPanel>
+        <StatusBar DockPanel.Dock="Bottom">Welcome!
+            <StatusBarItem>
+                <TextBlock x:Name="txtStatusBar"></TextBlock>
+            </StatusBarItem>
+        </StatusBar>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <MediaElement Source="C:\Users\H552416\OneDrive - Honeywell\Documents\VMS\Sample\Video\4.mp4" LoadedBehavior="Manual" Name="mePlayer" />
+            <StackPanel Grid.Row="1">
+                <Label Name="lblStatus" Content="Not playing..." HorizontalContentAlignment="Center" Margin="5" />
+                <WrapPanel HorizontalAlignment="Center" Margin="10">
+                    <Button Name="btnPlay" Click="btnPlay_Click">Play</Button>
+                    <Button Name="btnPause" Margin="5,0" Click="btnPause_Click">Pause</Button>
+                    <Button Name="btnStop" Click="btnStop_Click">Stop</Button>
+                    <ToggleButton x:Name = "tb" Content = "View Uploads" Checked = "handleViewUploads" Unchecked = "handleViewDownloads" Margin="5,0" HorizontalAlignment = "Center" />
+                </WrapPanel>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="10,0">
+                <Label Name="contextLable">Dowloaded Videos</Label>
+                <ListBox Name="videoList" SelectionMode="Extended" SelectionChanged="videoList_SelectionChanged">
+                    <ListBoxItem>...</ListBoxItem>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <WrapPanel>
+                                <StackPanel>
+                                    <Image Source="C:\Users\H552416\OneDrive - Honeywell\Documents\VMS\Sample\play.png" />
+                                </StackPanel>
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Id}"/>
+                                    <TextBlock Text="{Binding Title}"/>
+                                </StackPanel>
+                            </WrapPanel>
+
+
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="1">
+                <Label Name="labelFileUpload" Content="Upload videos..." HorizontalContentAlignment="Center" Margin="5" />
+
+                <WrapPanel HorizontalAlignment="Center" Margin="10">
+                    <Button Name="btnUpload" Click="btnUpload_Click">Upload</Button>
+                    <Button Name="btnDownload" Margin="5,0" Click="btnDownload_Click">Download</Button>
+                </WrapPanel>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+    
+    
+    
+   
+</Window>
